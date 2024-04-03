@@ -1,0 +1,111 @@
+
+/* Accordion Dropdowns */
+
+.su-accordion .su-spoiler {
+	margin-bottom: 0.5em;
+}
+.su-spoiler-style-default>.su-spoiler-content {
+	padding: 15px;
+}
+.su-accordion {
+	margin: 0 auto;
+	margin-bottom: 1.5em;
+}
+.su-accordion p:empty {
+	padding: 0;
+}
+.su-spoiler-style-default > .su-spoiler-title {
+  border-radius: 20px;
+  font-weight: 500;
+  padding: 20px 25px 20px 30px !important;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+}
+.su-spoiler.su-spoiler-style-default > .su-spoiler-title {
+  background: #fd3d1c;
+  color: #fff;
+}
+.su-spoiler.su-spoiler-style-default.su-spoiler-closed > .su-spoiler-title {
+  background: #efefef;
+  color: #212529;
+}
+.su-spoiler-style-default > .su-spoiler-content {
+}
+.su-spoiler-style-default > .su-spoiler-title > .su-spoiler-icon {
+  top: 0;
+  font-size: 16px;
+  width: 25px;
+  height: 25px;
+  line-height: 27px;
+  position: relative;
+  display: inline-block;
+  padding: 0 6px;
+}
+
+/* Tabbed Content */
+
+.su-tabs {
+  background: transparent;
+}
+.su-tabs-nav span {
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 2px;
+}
+.su-tabs-pane p {
+}
+.su-tabs-pane {
+  padding-bottom: 35px;
+  font-size: 20px;
+}
+.su-tabs-nav span.su-tabs-current, 
+.su-tabs-nav span:hover, 
+.su-tabs-nav span:active, 
+.su-tabs-nav span:focus {
+  border-bottom: 7px solid #fd3d1c;
+}
+.su-tabs-nav span {
+  border-bottom: 7px solid #efefef;
+}
+
+@media (max-width: 800px) {
+	.su-tabs-mobile-stack .su-tabs-nav span {
+		margin: 10px auto;
+	}
+}
+
+/* Blockquote */
+
+.su-dropcap-style-default {
+	background: #fd3d1c;
+	color: #fff;
+	margin-right: 10px;
+	margin-left: -5px;
+}
+@media screen and (min-width: 800px) {
+	.su-dropcap-style-default {
+		margin-bottom: 1.5em;
+	}
+}
+
+
+
+/* Misc */
+
+.su-row {
+    display: table;
+	margin: 0 auto;
+}
+.su-row.nopadding p { padding: 0 !important;}
+.su-column.su-column-size-3-5.nopadding, .su-column.su-column-size-3-5.nopadding p {padding: 0 !important;}
+
+@media screen and (min-width: 1200px ) {
+	.su-row .su-column {
+		display: table-cell;
+	}
+}
+
